@@ -15,7 +15,7 @@ const Casts = () => {
             setCasts(res.cast.slice(0, 5))
         }
         getCasts()
-    }, [])
+    }, [category, id])
 
     return (
         <div>
