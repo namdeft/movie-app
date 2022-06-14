@@ -1,0 +1,50 @@
+@use '../../scss/' as *;
+
+.input-container {
+    position: relative;
+    border: 1px solid $white;
+    width: 230px;
+    border-radius: $border-radius;
+    cursor: pointer;
+
+    @include tablet {
+        width: 300px;
+        padding: 0.4rem;
+    }
+
+    @include mobile {
+        width: 100%;
+        padding: 0.6rem;
+    }
+
+    input {
+        background-color: $body-bg;
+        border: none;
+        color: $text-color;
+        border-radius: $border-radius;
+
+        width: 80%;
+        padding: 0.4rem 1rem;
+        font-size: 16px;
+    }
+
+    .icon-search {
+        position: absolute;
+        right: 8px;
+        bottom: 50%;
+        transform: translateY(50%);
+        font-size: 20px;
+
+        @include flex(unset, unset);
+
+        @include tablet {
+            right: 14px;
+            font-size: 23px;
+        }
+
+        @include mobile {
+            right: 14px;
+            font-size: 23px;
+        }
+    }
+}

@@ -1,0 +1,136 @@
+@use '../../scss/' as *;
+
+.hero-slide__item {
+    padding: 10rem 0;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        @include overlay();
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 200px;
+        width: 100%;
+        background-image: linear-gradient(to top, $body-bg, rgba($black, 0));
+
+        @include tablet {
+            height: 172px;
+        }
+
+        @include mobile {
+            height: 80px;
+        }
+    }
+
+    &__content {
+        @include flex(space-evenly, center);
+        position: relative;
+
+        @include mobile {
+            @include flex(unset, center);
+            flex-direction: column-reverse;
+        }
+
+        &__info {
+            width: 40%;
+
+            @include mobile {
+                width: 80%;
+                margin-top: 2rem;
+            }
+
+            & > * ~ * {
+                margin-top: 2rem;
+            }
+
+            .title,
+            .overview,
+            .btns {
+                transform: scale(0);
+                transition: transform 0.4s ease;
+            }
+
+            .title {
+                font-size: 3rem;
+                font-weight: 700;
+                line-height: 1;
+
+                @include tablet {
+                    font-size: 2.7rem;
+                }
+
+                @include mobile {
+                    font-size: 2.3rem;
+                    text-align: center;
+                }
+            }
+
+            .overview {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                line-clamp: 3;
+                -webkit-box-orient: vertical;
+
+                @include mobile {
+                    display: none;
+                }
+            }
+
+            .btns {
+                @include mobile {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .btns > * ~ * {
+                margin-left: 1.4rem;
+            }
+        }
+
+        &__poster {
+            img {
+                width: 300px;
+                border-radius: $border-radius;
+                box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+
+                transform: scale(0);
+                transition: transform 0.4s ease;
+
+                @include tablet {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    &.active > &__content > &__content__info {
+        .title,
+        .overview,
+        .btns {
+            transform: scale(1);
+        }
+    }
+
+    &.active > &__content > &__content__poster {
+        img {
+            transform: scale(1);
+        }
+    }
+}

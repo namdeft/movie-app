@@ -1,0 +1,30 @@
+@use '../../scss/' as *;
+
+.movie-card {
+    padding: 0.8rem 0.4rem;
+    transition: all 0.4s ease;
+
+    &__img {
+        position: relative;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: $border-radius;
+        padding-top: 160%;
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+        &:hover {
+            transform: scale(1.08);
+        }
+    }
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 0.6rem;
+
+    @include mobile {
+        font-size: 12px;
+    }
+}
