@@ -30,7 +30,7 @@ const MovieList = (props) => {
             setListMovie(res.results)
         }
         getListMovie()
-    }, [listMovie])
+    }, [])
 
     return (
         <div className='section movie-list'>
