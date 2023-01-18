@@ -22,21 +22,14 @@
 ## 👾 Screenshots
 
 ![image](https://user-images.githubusercontent.com/94590046/213253559-64139a5a-ec74-415d-8187-3c1641da0c7f.png)
-
-
-| ![img7.jpg](https://user-images.githubusercontent.com/58461444/156853299-0e7520b5-0800-48ca-a415-368e0cc48da2.png)| 
-|:--:| 
-| *Landing page* |
-
-| ![img8.jpg](https://user-images.githubusercontent.com/58461444/156853441-79ef4bca-c729-4292-8b48-888df1297ba4.png)| 
-|:--:| 
-| *Sign in* |
-
-| ![img9.jpg](https://user-images.githubusercontent.com/58461444/156853471-0925aa9f-9f30-4fa5-b6e1-062fd0ef2121.png)| 
-|:--:| 
-| *Sign up* |
-
-| ![img1.jpg](https://user-images.githubusercontent.com/58461444/156852187-12e75228-523c-43f2-960c-0a96d345fe97.png) | 
-|:--:| 
-| *User Feed* |
-
+| *Movies slider* |
+![image](https://user-images.githubusercontent.com/94590046/213254586-6ab4f6bb-c42d-4a34-8505-b833ec86213e.png)
+| *Home page* |
+![image](https://user-images.githubusercontent.com/94590046/213254852-d5e4cee2-cb6d-4be7-be29-e8702551e740.png)
+| *Movie page* |
+![image](https://user-images.githubusercontent.com/94590046/213254931-b91f5e7c-ff78-48a0-92c8-d86035f83fdf.png)
+| *Searching movie* |
+![image](https://user-images.githubusercontent.com/94590046/213255214-cfbd697f-c6a5-476a-b2f6-a094294f0503.png)
+| *Load more button to find more movies* |
+![image](https://user-images.githubusercontent.com/94590046/213255436-878ee0d9-4c72-4e40-b5cf-2dff18f1771f.png)
+| *Footer* |
