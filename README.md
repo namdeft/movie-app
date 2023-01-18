@@ -22,9 +22,11 @@
 ## 👾 Screenshots
 
 ![image](https://user-images.githubusercontent.com/94590046/213256429-edab4af5-5b5c-4224-b4f9-932b60cdc141.png)
+|:--:| 
 | *Mobile display* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213253559-64139a5a-ec74-415d-8187-3c1641da0c7f.png)
+|:--:| 
 | *Movies slider* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213254586-6ab4f6bb-c42d-4a34-8505-b833ec86213e.png)
