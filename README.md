@@ -47,7 +47,6 @@
 
 ![image](https://user-images.githubusercontent.com/94590046/213256298-80b46f39-0484-4395-9280-7b8e817f6b67.png)
 |:--:| 
-|:--:| 
 | *Movie detail* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213256562-9fb0eab4-6bd3-41da-84e3-ea420eb4e016.png)
