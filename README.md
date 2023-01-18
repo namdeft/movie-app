@@ -30,19 +30,26 @@
 | *Movies slider* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213254586-6ab4f6bb-c42d-4a34-8505-b833ec86213e.png)
+|:--:| 
 | *Home page* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213254852-d5e4cee2-cb6d-4be7-be29-e8702551e740.png)
+|:--:| 
 | *Movie page* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213254931-b91f5e7c-ff78-48a0-92c8-d86035f83fdf.png)
+|:--:| 
 | *Searching movie* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213255214-cfbd697f-c6a5-476a-b2f6-a094294f0503.png)
+|:--:| 
 | *Load more button to find more movies* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213256298-80b46f39-0484-4395-9280-7b8e817f6b67.png)
+|:--:| 
+|:--:| 
 | *Movie detail* |
 
 ![image](https://user-images.githubusercontent.com/94590046/213256562-9fb0eab4-6bd3-41da-84e3-ea420eb4e016.png)
+|:--:| 
 | *Watching trailer* |
