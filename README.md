@@ -19,6 +19,9 @@
 ### Back-end
 * APIs from themoviedb
 
+### Hosting
+* Vercel
+
 ## 👾 Screenshots
 
 ![image](https://user-images.githubusercontent.com/94590046/213256429-edab4af5-5b5c-4224-b4f9-932b60cdc141.png)
